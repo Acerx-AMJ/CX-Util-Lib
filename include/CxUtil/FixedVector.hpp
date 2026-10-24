@@ -4,6 +4,7 @@
 #include "Config.hpp" // IWYU pragma: export
 #include <utility>
 #include <cassert>
+#include <cstddef>
 
 namespace cx::util
 {

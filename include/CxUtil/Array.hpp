@@ -420,9 +420,9 @@ namespace cx::util
       {
          for (size_t i {}; i < __MAX_SIZE; ++i)
          {
-            if (rawdata[i] < other.data[i])
+            if (rawdata[i] < other.data()[i])
                return true;
-            else if (other.data[i] < rawdata[i])
+            else if (other.data()[i] < rawdata[i])
                return false;
          }
          return false;
